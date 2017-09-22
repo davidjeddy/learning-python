@@ -47,3 +47,9 @@ print(new_string)
 
 # function argument substitution
 print("%s %s %s" % ('I like the quote:', quote, multi_line_quote))
+
+print('\n' * 5)
+print('I dont like this ', end='')
+print("second line")
+
+
