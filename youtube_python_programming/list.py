@@ -32,13 +32,13 @@ grocery_list.remove("Pickle")
 grocery_list.sort()
 grocery_list.reverse()
 
-del grocery_list[4]
+del grocery_list[3]
 print(grocery_list)
 
 # combine lists together
-todo2 = grocery_list + todo;
+todo2 = grocery_list + todo
 print(len(todo2))
 
-print(max(todo2))
+print(max(todo))
 
-print(min(todo2))
+print(min(todo))
